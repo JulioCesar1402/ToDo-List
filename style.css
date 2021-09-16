@@ -63,10 +63,11 @@
   align-items: center;
   background-color: rgb(67, 126, 168);
   color: #fafafa;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .head-title {
-  margin-left: 50px;
+  margin-left: 55px;
 }
 
 .create-task {
