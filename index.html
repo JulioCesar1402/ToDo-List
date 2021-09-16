@@ -7,21 +7,21 @@
     <title>ToDoList</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
     <header>
-        <h1 class="center-text">Minha Lista de Tarefas</h1>
+        <h1 class="center-text head-title">Minha Lista de Tarefas</h1>
         <p id="funcionamento" class="center-text">Clique duas vezes em um item para marcá-lo como completo</p>
     </header>
-    <section>
-        <input type="text" id="texto-tarefa">
-        <button id="criar-tarefa">Criar</button>
+    <section class="create-task">
+        <input type="text" id="texto-tarefa" placeholder="Add Task">
+        <button id="criar-tarefa" class="btn-create-task"><b>Create</b></button>
     </section>
     <section>
         <ol id="lista-tarefas"></ol>
     </section>
-    <section>
-        <button id="apaga-tudo">Apagar Lista</button>
-        <button id="remover-finalizados">Apagar Realizados</button>
+    <section class="btn">
+        <button id="apaga-tudo"><b>Delete List</b></button>
+        <button id="remover-finalizados"><b>Delete Selected</b></button>
     </section>
     <script src="script.js"></script>
 </body>

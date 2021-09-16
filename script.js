@@ -13,6 +13,7 @@ function createTaskItem() {
   const taskAdd = document.createElement('li');
   if (createTask.value !== '') {
     taskAdd.innerText = createTask.value;
+    taskAdd.classList.add('item-list');
     listOfTasks.appendChild(taskAdd);
   }
 }
